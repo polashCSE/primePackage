@@ -1,0 +1,47 @@
+%%Excelsior JET v11.0 project file
+
+-jpiiproject=F:\JAVA program\primePackage\Prime Game.jpn
+
+-compilewithfixedheap-
+-genstackalloc+
+-genstacktrace-
+-global-
+-gui+
+-ignoreclassduplication+
+-ignorememberabsence+
+-inline+
+-jetcpenablemanualsettings+
+-multiapp-
+-splashgetfrommanifest-
+
+-apptype=Plain
+-classabsence=HANDLE
+-compilerheap=1744830464
+-inlinelimit=100
+-inlinetolimit=1000
+-jetcplastpage:=PageCompile
+-jetrt=Desktop
+-jetvmprop=-Djet.gc.heaplimit:0 -Djet.stack.trace
+-main=primepackage/finalTask
+-outputdir=.
+-outputname=Prime Game
+-saprofmode=JETCPONLY
+-saproftimeout=20
+-stacklimit=900000
+-startupprofile=./Prime Game.startup
+-versioninfocompanyname=Polash
+-versioninfofiledescription=Prime Game
+-versioninfolegalcopyright=Copyright \x00a9 2016 Polash
+-versioninfoproductname=Prime Game
+
+
+
+
+!classpathentry ./dist/primePackage.jar
+  -pack=noncompiled
+  -protect=all
+  -optimize=all
+!end
+
+!module ./Prime Game.usg
+
